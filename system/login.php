@@ -20,7 +20,7 @@ if(mysqli_num_rows($login_admin) > 0) {
     $data = mysqli_fetch_array($login_admin);
     $_SESSION["nama"] = $data["nama"];
     
-    header("location:../content/admin_page.php");
+    header("location:../content/adminPage.php");
     exit();
 
 } elseif (mysqli_num_rows($login_mhs) > 0) {

@@ -43,14 +43,14 @@
           <ul class="sidebar-menu">
               <li class="menu-header">Dashboard</li>
               <li>
-                <a href="admin_page.php" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard</span></a>
+                <a href="adminPage.php" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard</span></a>
               </li>
               <li class="menu-header">Data</li>
-              <li><a class="nav-link" href="../content/admin_data-golongan-UKT.php"><i class="fas fa-database"></i> <span>Data Golongan UKT</span></a></li>
+              <li><a class="nav-link" href="../content/adminData_Golongan-UKT.php"><i class="fas fa-database"></i> <span>Data Golongan UKT</span></a></li>
               <li><a class="nav-link" href="kelas.php"><i class="fas fa-database"></i> <span>Data Mahasiswa</span></a></li>
               <li class="menu-header">Personal</li>
-              <li><a class="nav-link" href="petugas.php"><i class="fas fa-user-edit"></i> <span>PETUGAS</span></a></li>
-              <li><a class="nav-link" href="siswa.php"><i class="fas fa-user-graduate"></i> <span>SISWA</span></a></li>
+              <li><a class="nav-link" href="petugas.php"><i class="fas fa-user-edit"></i> <span>User Admin</span></a></li>
+              <li><a class="nav-link" href="siswa.php"><i class="fas fa-user-graduate"></i> <span>User Mahasiswa</span></a></li>
               <li class="menu-header">Fitur</li>
               <li><a class="nav-link" href="transaksi.php"><i class="fas fa-money-check-alt"></i> <span>TRANSAKSI PEMBAYARAN</span></a></li>
               <li><a class="nav-link" href="laporan.php"><i class="fas fa-book"></i> <span>LAPORAN</span></a></li>

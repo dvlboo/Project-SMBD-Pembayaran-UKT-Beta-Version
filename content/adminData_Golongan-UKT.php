@@ -58,8 +58,8 @@
                         <td><?= $data['tingkatan']; ?></td>
                         <td>Rp.<?= $data['biaya_ukt']; ?></td>
                         <td>
-                          <a href="../system/adminEdit_Gol-UKT.php echo $row['id_kls']; ?>" class="btn btn-primary"><i class="fas fa-edit"></i></a>
-                          <a href="../system/adminDelete_Gol-UKT.php=id<?php echo $row['id_kls']; ?>" class="btn btn-danger" onClick="return confirm('Anda yakin akan menghapus data ini?')"><i class="fas fa-trash"></i></a>
+                        <a href="../system/adminEdit_Gol-UKT.php?tingkatan=<?= urlencode($data['tingkatan']); ?>" class="btn btn-primary"><i class="fas fa-edit"></i></a>
+                        <a href="../process/UKT-Delete_Admin.php?tingkatan=<?= urlencode($data['tingkatan']); ?>" class="btn btn-danger" onClick="return confirm('Anda yakin akan menghapus data ini?')"><i class="fas fa-trash"></i></a>
                         </td>
                       </tr>
                       <?php $no++; ?>

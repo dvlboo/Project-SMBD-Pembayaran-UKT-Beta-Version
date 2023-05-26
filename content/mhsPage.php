@@ -53,8 +53,8 @@
               <tr>
                   <td></td>
                   <td>:</td>
-                  <td>2. Ntah Hilang Kemana</td>
-                  <td> (210441100xxx)</td>
+                  <td>2. Ingka Wulandari</td>
+                  <td>(210441100060)</td>
               </tr>
               <tr>
                   <td>E-mail</td>

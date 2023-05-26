@@ -25,9 +25,12 @@ if(mysqli_num_rows($login_admin) > 0) {
 
 } elseif (mysqli_num_rows($login_mhs) > 0) {
     $data = mysqli_fetch_array($login_mhs);
-    $_SESSION["nama"] = $data["nama"];
+    $_SESSION["nama_lengkap"] = $data["nama_lengkap"];
+    $_SESSION["prodi"] = $data["prodi"];
+    $_SESSION["nim"] = $data["nim"];
 
-    header("location:../content/mhs_page.php");
+
+    header("location:../content/mhsPage.php");
     exit();
 
 } else {
